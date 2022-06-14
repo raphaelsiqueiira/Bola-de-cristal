@@ -7,7 +7,7 @@ const respostas = [
     "Sem dúvidas!",
     "Pergunte novamente mais tarde.",
     "Sim, definitivamente.",
-    "Minha ressposta é não.",
+    "Minha resposta é não.",
     "Melhor não te dizer agora.",
     "Ao meu ver, sim.",
     "Minhas fontes dizem não.",
@@ -38,4 +38,7 @@ random() * totalRespostas)
     setTimeout(function(){
         elementoResposta.style.opacity = 0
     }, 3000)
+    setTimeout(function(){
+        window.location.reload(1);
+    }, 4600);
 }
